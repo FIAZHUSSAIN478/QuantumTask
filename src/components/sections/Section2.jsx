@@ -2,8 +2,7 @@ import bgimg from "../../assets/Images/bg1.svg";
 import icon1 from "../../assets/Images/icon1.svg";
 import icon2 from "../../assets/Images/icon2.svg";
 import icon3 from "../../assets/Images/icon3.svg";
-import Cards from "../cards";
-
+import Cards from "../Cards";
 
 function Section2() {
 

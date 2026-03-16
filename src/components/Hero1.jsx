@@ -1,5 +1,5 @@
-import heroimg from "/src/assets/Images/vector.svg";
-import herodot from "/src/assets/Images/dots.svg";
+import heroimg from "../assets/Images/Vector.svg";
+import herodot from "../assets/Images/dots.svg";
 
 function Hero1(){
     return (
