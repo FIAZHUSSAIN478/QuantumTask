@@ -1,5 +1,3 @@
-import React from 'react'
-import bgimg from "../../assets/Images/bg1.svg";
 import icon1 from "../../assets/Images/icon6.svg";
 import icon2 from "../../assets/Images/icon4.svg";
 import icon3 from "../../assets/Images/icon5.svg";
