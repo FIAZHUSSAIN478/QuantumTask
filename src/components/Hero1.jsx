@@ -5,7 +5,7 @@ function Hero1(){
     return (
         <div className="w-full lg:py-14 md:py-8 py-6 bg-white flex items-center justify-center lg:px-20 md:px-10 px-5  mt-3">
 
-            <div className="max-w-7xl mx-auto grid lg:grid-cols-2 md:grid-cols-2  lg:gap-17 md:gap-0 gap-10  items-center lg:pr-40 xl:pr-10">
+            <div className="max-w-7xl mx-auto grid lg:grid-cols-2 md:grid-cols-2  lg:gap-0 md:gap-0 gap-10  items-center lg:pr-40 xl:pr-10 ">
 
                 <div className="lg:w-123 md:w-75 lg:h-102.5 md:h-80   text-center lg:text-left md:text-left
                           order-2 sm:order-1 md:order-1 lg:order-1 flex flex-col lg:gap-6 md:gap-6 gap-3  w-[320]">
@@ -41,17 +41,17 @@ function Hero1(){
                 <div className="relative lg:w-134 md:w-92.5 w-[320]  lg:h-92.75  md:h-91.75  h-71
                    order-1 sm:order-2 md:order-2 lg:order-2">
 
-                    <div className="absolute  lg:w-[311.21px] md:w-62.5 w-56.25 h-67.5 right-0 lg:h-[371.21px] md:h-87 lg:top-[11.4px] lg:right-0 md:right-10 bg-purple-100 rounded-tr-[750px]"></div>
+                    <div className="absolute  lg:w-[371.21px] lg:left-50 md:left-25 left-27  md:w-62.5 w-56.25 h-67.5 right-0 lg:h-[371.21px] md:h-82 lg:top-[11.4px] lg:right-0 md:right-10 bg-[#F9F3FF] rounded-tr-[750px]"></div>
 
 
                     <img
                         src={heroimg}
                         alt="hero"
-                        className="absolute w-[110.12px] lg:h-[126.10px] md:h-[126.10px] h-20 lg:top-[55.8px] md:top-[55.8px] top-6.5 lg:left-20 md:left-0 left-0"
+                        className="absolute w-[110.12px] lg:h-[126.10px] md:h-[100.10px] h-20 lg:top-[55.8px] md:top-[45.8px] top-6.5 lg:left-20 md:left-3 left-0"
                     />
 
 
-                    <div className="absolute lg:w-45 md:w-40 w-35.5 left-20 lg:h-21.75 md:h-[60] lg:top-12.5 md:top-12.5 top-5.5 lg:left-42.5 md:left-25 bg-white shadow-lg rounded-[20px] px-4.5 py-3.5 flex flex-col lg:gap-1.25 md:gap-1.25 gap-1 ">
+                    <div className="absolute lg:w-45 md:w-40 w-35.5 left-20 lg:h-21.75 md:h-[60] lg:top-12.5 md:top-11.5 top-5.5 lg:left-42.5 md:left-25 bg-white shadow-lg rounded-[20px] px-4.5 py-3.5 flex flex-col lg:gap-1.25 md:gap-1.25 gap-1 ">
                         <p className="font-octarine font-bold lg:text-[12px] md:text-[12px] text-[10px] leading-[100%] tracking-[0%] [leading-trim:none]">
                             Quantum Processing
                         </p>
@@ -64,7 +64,7 @@ function Hero1(){
                     </div>
 
 
-                    <div className="absolute lg:w-53.25 md:w-40 w-34.5 lg:h-21.75 md:h-[60] lg:top-[176.4px] md:top-[176.4px] top-26.25  lg:left-15 md:left-0 left-0 bg-white shadow-lg rounded-[20px] px-4.5 py-3.5 flex flex-col gap-1.25 ">
+                    <div className="absolute lg:w-53.25 md:w-40 w-34.5 lg:h-21.75 md:h-[60] lg:top-[176.4px] md:top-[145.4px] top-26.25  lg:left-15 md:left-0 left-0 bg-white shadow-lg rounded-[20px] px-4.5 py-3.5 flex flex-col gap-1.25 ">
                         <p className="font-octarine font-bold lg:text-[12px] md:text-[12px] text-[11px] leading-[100%] tracking-[0%] [leading-trim:none]">
                             Security
                         </p>
@@ -78,7 +78,7 @@ function Hero1(){
 
 
                     <div className="absolute lg:w-45 md:w-37.5 w-28.25 lg:h-21.75 md:h-[60] lg:top-[155.4px]
-                    md:top-[155.4px] top-24.75 lg:left-75 md:left-47 left-37.5 bg-white shadow-lg rounded-[20px] px-4.5 py-3.5 flex flex-col gap-1.25 ">
+                    md:top-[140.4px] top-24.75 lg:left-75 md:left-47 left-37.5 bg-white shadow-lg rounded-[20px] px-4.5 py-3.5 flex flex-col gap-1.25 ">
                         <p className="font-octarine font-bold lg:text-[12px] md:text[12px] text-[11px] leading-[100%] tracking-[0%] [leading-trim:none]">
                             Performance
                         </p>
@@ -91,7 +91,7 @@ function Hero1(){
                     </div>
 
 
-                    <div className="absolute lg:w-45 md:w-40 w-28.5 lg:h-21.75 md:h-[60] lg:top-[278.4px] md:top-66 top-45 lg:left-62.5 md:left-37.5 left-28.75 bg-white shadow-lg rounded-[20px] px-4.5 py-3.5 flex flex-col gap-1.25">
+                    <div className="absolute lg:w-45 md:w-40 w-28.5 lg:h-21.75 md:h-[60] lg:top-[278.4px] md:top-59 top-45 lg:left-58.5 md:left-30.5 left-28.75 bg-white shadow-lg rounded-[20px] px-4.5 py-3.5 flex flex-col gap-1.25">
                         <p className="font-octarine font-bold lg:text-[12px] md:[12px] text-[11px] leading-[100%] tracking-[0%] [leading-trim:none]">
                             ROI Increase
                         </p>
@@ -106,7 +106,7 @@ function Hero1(){
                     <img
                         src={herodot}
                         alt="hero"
-                        className="absolute lg:w-[110.12px] md:w-[110.12px] w-19 h-[126.10px] lg:top-[260.8px] md:top-61.25 top-41.25 lg:left-25 md:left-6 left-7.5"
+                        className="absolute lg:w-[110.12px] md:w-[85.12px] w-19 h-[126.10px] lg:top-[260.8px] md:top-55.25 top-41.25 lg:left-20 md:left-2 left-7.5"
                     />
 
                 </div>

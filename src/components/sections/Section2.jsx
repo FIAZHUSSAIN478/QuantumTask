@@ -30,7 +30,7 @@ function Section2() {
 
     return (
         <div
-            className="py-15 lg:px-20 md:px-10 px-5 bg-no-repeat bg-center bg-cover mb-8"
+            className="py-15 lg:px-20 md:px-10 px-5 bg-no-repeat bg-center bg-cover"
             style={{ backgroundImage: `url(${bgimg})` }}
         >
             <div className="max-w-6xl mx-auto text-center">

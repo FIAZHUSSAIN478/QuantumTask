@@ -1,5 +1,6 @@
 import Header1 from "./components/Header1";
 import Hero1 from "./components/Hero1";
+import Section3 from "./components/sections/Section3";
 import Section2 from "./components/sections/Section2";
 
 
@@ -9,6 +10,7 @@ function App() {
       <Header1 />
       <Hero1 />
       <Section2 />
+      <Section3/>
       {/* <Section1/> */}
 
     </>
