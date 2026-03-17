@@ -1,12 +1,12 @@
-import icon1 from "../../assets/Images/icon6.svg";
-import icon2 from "../../assets/Images/icon4.svg";
-import icon3 from "../../assets/Images/icon5.svg";
+import icon6 from "../../assets/Images/icon6.svg";
+import icon4 from "../../assets/Images/icon4.svg";
+import icon5 from "../../assets/Images/icon5.svg";
 import Cards2 from '../Cards2';
 
 function Section3() {
     const cards = [
         {
-            icon: icon1,
+            icon: icon6,
             title: "Portfolio Optimization",
             description:
                 "Quantum algorithms analyze millions of scenarios simultaneously to find optimal portfolio allocations with unprecedented precision and speed.",
@@ -18,7 +18,7 @@ function Section3() {
             ],
         },
         {
-            icon: icon2,
+            icon: icon4,
             title: "Advanced Risk Analytics",
             description:
                 "Advanced quantum models predict and quantify risks with unprecedented accuracy, helping you make informed decisions in volatile markets.",
@@ -30,7 +30,7 @@ function Section3() {
             ],
         },
         {
-            icon: icon3,
+            icon: icon5,
             title: "Quantum Trading Algorithms",
             description:
                 "Quantum-powered trading algorithms execute strategies with superhuman speed and precision, identifying opportunities invisible to systems.",
