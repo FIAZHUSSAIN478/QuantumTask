@@ -39,9 +39,9 @@ function Hero1(){
                 </div>
 
                 <div className="relative lg:w-134 md:w-92.5 w-[320]  lg:h-92.75  md:h-91.75  h-71
-                   order-1 sm:order-2 md:order-2 lg:order-2">
+                   order-1 sm:order-2 md:order-2 lg:order-2 ">
 
-                    <div className="absolute  lg:w-[371.21px] lg:left-50 md:left-25 left-27  md:w-62.5 w-56.25 h-67.5 right-0 lg:h-[371.21px] md:h-82 lg:top-[11.4px] lg:right-0 md:right-10 bg-[#F9F3FF] rounded-tr-[750px]"></div>
+                    <div className="absolute  lg:w-[371.21px] lg:left-50 md:left-25 left-27  md:w-62.5 w-46.25 h-67.5 right-0 lg:h-[371.21px] md:h-82 lg:top-[11.4px] lg:right-0 md:right-10 bg-[#F9F3FF] rounded-tr-[750px]"></div>
 
 
                     <img
@@ -52,7 +52,7 @@ function Hero1(){
 
 
                     <div className="absolute lg:w-45 md:w-40 w-35.5 left-20 lg:h-21.75 md:h-[60] lg:top-12.5 md:top-11.5 top-5.5 lg:left-42.5 md:left-25 bg-white shadow-lg rounded-[20px] px-4.5 py-3.5 flex flex-col lg:gap-1.25 md:gap-1.25 gap-1 ">
-                        <p className="font-octarine font-bold lg:text-[12px] md:text-[12px] text-[10px] leading-[100%] tracking-[0%] [leading-trim:none]">
+                        <p className="font-octarine font-bold lg:text-[12px] md:text-[12px] text-[10px] leading-[100%] tracking-[0%] [leading-trim:none] ">
                             Quantum Processing
                         </p>
                         <h3 className="font-octarine font-bold not-italic lg:text-2xl md:text-xl text-[16px] leading-none tracking-normal text-[#693B93]">

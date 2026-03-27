@@ -10,7 +10,7 @@ function Header1() {
     const [dropdownOpen, setDropdownOpen] = useState(false);
 
     return (
-        <header className="w-full bg-white border-b border-solid border-[#eeeeee] shadow-[0_3px_10px_0_rgba(0,0,0,0.1)] sticky top-0 z-10">
+        <header className="w-full bg-white border-b border-solid border-[#eeeeee] shadow-[0_3px_10px_0_rgba(0,0,0,0.1)] sticky top-0 z-100">
 
             <div className="flex justify-between items-center px-4 md:px-10 lg:px-20 h-16 md:h-20">
 
