@@ -94,14 +94,14 @@ function Header1() {
             {dropdownOpen && (
                 <div className="absolute right-20 top-15.5 w-34 bg-[#f9f3ff] rounded-lg shadow-md p-3">
 
-                    <div className="flex items-center gap-2 py-2 cursor-pointer hover:bg-gray-100 rounded">
+                    <div className="flex items-center gap-2 py-2 cursor-pointer rounded">
                         <img src={usa} alt="english" className="w-6 h-6" />
                         <span className="font-visby font-bold">English</span>
                     </div>
 
                     <hr className="my-2" />
 
-                    <div className="flex items-center gap-2 py-2 cursor-pointer hover:bg-gray-100 rounded">
+                    <div className="flex items-center gap-2 py-2 cursor-pointer  rounded">
                         <img src={Germany} alt="germany" className="w-6 h-6" />
                         <span className="font-visby font-bold">Germany</span>
                     </div>

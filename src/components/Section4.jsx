@@ -6,19 +6,16 @@ function Section4() {
       style={{ backgroundImage: `url(${bgimg2})` }}
     >
 
-      <div className="max-w-7xl mx-auto grid lg:grid-cols-2 lg:gap-12 items-center">
+      <div className="max-w-7xl mx-auto grid lg:grid-cols-2  lg:gap-12 items-center">
 
-        {/* LEFT SIDE - IMAGE */}
         <div className="lg:h-110 lg:w-114 md:h-114 md:w-114 h-60 w-full lg:order-1 md:order-1 order-2  items-center justify-center flex">
           <img
             src={section4img}
             alt="quantum illustration"
-            className="lg:h-100 md:h-100 h-59.5"
+            className="lg:h-100 md:h-100 h-59.5 "
           />
         </div>
-
-        {/* //right side content // */}
-        <div className="lg:h-126 lg:order-2 md:order-2 order-1  text-center lg:text-left md:text-left">
+        <div className="xl:h-128 lg:h-145  lg:order-2 md:order-2 order-1  text-center lg:text-left md:text-left">
           <span className="w-49.75 h-7 opacity-100 gap-1.25 rounded-[20px] py-2 px-3.75 bg-[#f9f3ff]  text-[#693b93] font-bold  text-[12px] mb-4 border">
             Quantum Technology Stack
           </span>

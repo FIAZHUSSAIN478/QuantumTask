@@ -77,7 +77,7 @@ function Section5() {
                                 className="flex items-center justify-between  cursor-pointer"
                                 onClick={() => toggle(index)}
                             >
-                                <div className="flex items-center lg:gap-70 md:gap-17 gap-4">
+                                <div className="flex items-center xl:gap-67.5 lg:gap-40 md:gap-17 gap-4">
                                     <span className="text-[#D5A7FF]    font-semibold">
                                         {item.id}
                                     </span>
@@ -92,7 +92,7 @@ function Section5() {
                                 </span>
                             </div>
                             {isOpen && (
-                                <p className=" mt-2.5 font-Octarine font-light  text-[Typography/Font Size/Paragraph/Small] leading-[150%] tracking-[0%] text-[rgba(15,15,15,1)]    lg:w-132.5 lg:ml-74 md:w-108 md:ml-21.5 w-60 ml-8 lg:text-[16px] md:text-[14px] text-[12px]">
+                                <p className=" mt-2.5 font-Octarine font-light  text-[Typography/Font Size/Paragraph/Small] leading-[150%] tracking-[0%] text-[rgba(15,15,15,1)]    lg:w-132.5 xl:ml-72 lg:ml-44 md:w-108 md:ml-21.5 w-60 ml-8 lg:text-[16px] md:text-[14px] text-[12px]">
                                     {item.answer}
                                 </p>
                             )}
