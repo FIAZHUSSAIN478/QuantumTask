@@ -47,7 +47,7 @@ function Section5() {
     };
 
     return (
-        <div className="bg-white py-20 lg:px-20 md:px-10 px-6">
+        <div className="bg-white py-20 lg:px-20 md:px-10 px-4 ">
             <div className="text-center mb-12">
                 <span className="w-62.25 h-7 gap-1.25 [transform-[rotate(0deg)] opacity-100 rounded-[20px] py-2 px-3.75 border font-octarine font-bold text-[12px] leading-[100%] tracking-normal text-[#693B93] bg-purple-100 text-sm">
                     Frequently Asked Questions
@@ -77,11 +77,11 @@ function Section5() {
                                 className="flex items-center justify-between  cursor-pointer"
                                 onClick={() => toggle(index)}
                             >
-                                <div className="flex items-center xl:gap-67.5 lg:gap-40 md:gap-17 gap-4">
+                                <div className="flex items-center xl:gap-67.5 lg:gap-40 md:gap-17 gap-5">
                                     <span className="text-[#D5A7FF]    font-semibold">
                                         {item.id}
                                     </span>
-                                    <h3 className={`font-octarine font-bold not-italic text-display-4 leading-[135%] tracking-normal 
+                                    <h3 className={`font-octarine lg:text-[18px] md:text-[16px] text-[14px] font-bold not-italic text-display-4 leading-[135%] tracking-normal 
                                      ${isOpen ? "text-[#693B93]" : "text-black"}`}>
                                         {item.question}
                                     </h3>
@@ -92,7 +92,7 @@ function Section5() {
                                 </span>
                             </div>
                             {isOpen && (
-                                <p className=" mt-2.5 font-Octarine font-light  text-[Typography/Font Size/Paragraph/Small] leading-[150%] tracking-[0%] text-[rgba(15,15,15,1)]    lg:w-132.5 xl:ml-72 lg:ml-44 md:w-108 md:ml-21.5 w-60 ml-8 lg:text-[16px] md:text-[14px] text-[12px]">
+                                <p className=" mt-2.5 font-Octarine font-light  text-[Typography/Font Size/Paragraph/Small] leading-[150%] tracking-[0%] text-[rgba(15,15,15,1)]    lg:w-132.5 xl:ml-72 lg:ml-44 md:w-108 md:ml-21.5 w-60 ml-9 lg:text-[16px] md:text-[14px] text-[12px]">
                                     {item.answer}
                                 </p>
                             )}
