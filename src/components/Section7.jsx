@@ -43,7 +43,7 @@ function Section7() {
     <div className="w-full bg-white py-20 px-6 lg:px-20">
       <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-10 items-center">
         <div>
-          <button className="h-7 w-27 border border-solid border-custom-purple font-octarine font-bold text-[12px] leading-none tracking-normal text-[rgba(105,59,147,1)] bg-[rgba(249,243,255,1)] rounded-full mb-4">
+          <button className="h-7 w-27 border border-solid border-custom-purple font-octarine font-bold text-[12px] leading-none tracking-normal text-[rgba(105,59,147,1)] bg-[rgba(249,243,255,1)] rounded-full mb-4 cursor-pointer">
             Get In Touch
           </button>
 
